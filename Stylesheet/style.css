@@ -1,0 +1,398 @@
+*{
+    margin: 0;
+    padding: 0;
+    height: fit-content;
+    box-sizing: border-box;
+}
+header{
+    height: fit-content;
+    color: white;
+    background-image: url(https://cdn.shopify.com/s/files/1/1553/3677/files/christie_78ef6348-7cfc-48c4-9732-602fd744564d.jpg?v=1613038816);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header__container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(2, 2, 2, 0.623);
+    padding: 0 100px;
+}
+nav{
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    padding: 20px 0;
+}
+.left__nav{
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+}
+.left__nav p:hover{
+    color: rgb(250, 162, 0);
+    transition: 500ms;
+    cursor: pointer;
+}
+.active{
+    color: rgb(250, 162, 0);
+}
+.logo{
+    font-size: 25px;
+}
+.right__nav{
+    display: flex;
+    column-gap: 50px;
+}
+.right__nav p:hover{
+    color: rgb(250, 162, 0);
+    transition: 500ms;
+    cursor: pointer;
+}
+.right__nav__menu{
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+}
+.intro__text{
+    width: 100%;
+    height: 84vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.intro__text h1{
+    font-size: 120px;
+}
+.intro__text span{
+    font-size: 110px;
+}
+
+
+
+.category__wrapper{
+    padding: 80px 100px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 80px;
+}
+.category__title{
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.category__title h1{
+    font-size: 40px;
+}
+.category__title p{
+    width: 70%;
+    font-size: 22px;
+    font-weight: 500;
+    color: rgb(49, 49, 49)
+} 
+.category{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+.category__adult{
+    display: flex;
+    column-gap: 40px;
+}
+.men__category{
+    width: 50%;
+    height: fit-content;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://i0.wp.com/1.bp.blogspot.com/-O9tJRgqkKBQ/YKybouD7MAI/AAAAAAAAK18/AZu-c6aqnrs3DAPAbdNf9-g-YRmfT08cwCLcBGAsYHQ/s795/IMG_20210524_182816_318.jpg?ssl=10);
+}
+.men__category h1{
+    font-size: 50px;
+}
+.title__wrap{
+    height: 350px;
+    background-color: rgba(0, 0, 0, 0.521);
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: white;
+}
+.women__category{
+    width: 50%;
+    height: fit-content;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://i0.wp.com/www.momoafrica.com/wp-content/uploads/2021/06/Top-Five-Fashion-Trends-with-the-Lace-fabric-1.jpg?resize=1080%2C1350&ssl=1);
+}
+.women__category h1{
+    font-size: 50px;
+}
+.children__category{
+    background-image: url(https://sveltemag.com/wp-content/uploads/2022/04/native-styles-for-kids.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.children__category .title__wrap{
+    height: 400px;
+}
+.children__category h1{
+    font-size: 50px;
+}
+
+
+
+.outfit__ideas{
+    display: flex;
+    column-gap: 50px;
+    padding: 80px 100px;
+    align-items: center;
+}
+.idea{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+}
+.idea__content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.idea__content h1{
+    font-size: 40px;
+}
+.idea__content p{
+    width: 90%;
+    font-size: 22px;
+    text-align: justify;
+    font-weight: 500;
+    color: rgb(49, 49, 49);
+    line-height: 30px;
+}
+.idea button{
+    width: fit-content;
+    padding: 8px 20px;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    background-color: maroon;
+    color: white;
+    box-shadow: 0px 0px 10px rgba(128, 0, 0, 0.384);
+}
+.idea button:hover{
+    background-color: rgb(94, 0, 0);
+    transition: 500ms;
+    cursor: pointer;
+}
+.pictures{
+    width: 50%;
+    display: flex;
+    column-gap: 20px;
+}
+.pictures img{
+    width: 50%;
+    height: 350px;
+    background-color: rgba(128, 128, 128, 0.637);
+    object-fit: cover;
+    box-shadow: 0px 0px 20px rgb(221, 221, 221);
+}
+.pictures img:nth-child(2){
+    margin-top: 150px;
+}
+
+
+
+.steps__wrapper{
+    height: 350px;
+    background-color: maroon;
+    padding: 0 100px;
+    margin-top: 205px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+}
+.steps__wrapper__cards{
+    display: flex;
+    column-gap: 40px;
+}
+.card{
+    width: 25%;
+    height: 250px;
+    background-color: white;
+    font-size: 22px;
+    color: rgb(49, 49, 49);
+    border: 1px solid rgb(180, 180, 180);
+    padding: 60px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-top: -125px;
+}
+.full__payment{
+    padding-bottom: 85px;
+}
+.card i{
+    font-size: 40px;
+    color: maroon;
+}
+.steps__explanation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.steps__explanation h1{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+
+
+.discount{
+    height: 200px;
+    margin: 80px 100px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    color: white;
+    background-image: linear-gradient(90deg, maroon, rgb(218, 141, 0), maroon);
+    box-shadow: 0px 0px 30px rgba(128, 0, 0, 0.342);
+}
+.discount h1{
+    font-size: 40px;
+}
+
+.hiring{
+    padding: 80px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hiring img{
+    width: 40%;
+    height: 350px;
+    object-fit: cover;
+}
+.content__wrapper{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+.hiring .content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.content h1{
+    font-size: 40px;
+}
+.content p{
+    font-size: 22px;
+    width: 85%;
+    text-align: justify;
+}
+.content__wrapper button{
+    width: fit-content;
+    padding: 8px 20px;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    background-color: maroon;
+    color: white;
+    box-shadow: 0px 0px 10px rgba(128, 0, 0, 0.384);
+}
+.content__wrapper button:hover{
+    background-color: rgb(94, 0, 0);
+    transition: 500ms;
+    cursor: pointer;
+}
+
+
+
+footer{
+    padding: 80px 100px;
+    background-color: maroon;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 50px;
+}
+.footer__about{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.footer__about p{
+    font-size: 18px;
+    width: 80%;
+    text-align: justify;
+}
+.footer__about .logo{
+    font-size: 30px;
+}
+
+.links{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.links h3{
+    font-size: 22px;
+}
+.links__wrp{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    font-size: 18px;
+}
+
+.updates{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.updates h1{
+    font-size: 40px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+form input{
+    width: 70%;
+    padding: 5px 10px;
+    outline: none;
+}
+form input:focus{
+    border: 2px solid rgb(250, 162, 0);
+    border-radius: 5px;
+}
+form button{
+    width: fit-content;
+    padding: 6px 20px;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    background-color: rgb(218, 141, 0);
+    color: white;
+    box-shadow: 0px 0px 10px rgba(218, 142, 0, 0.541);
+}
+form button:hover{
+    background-color: rgb(199, 96, 0);
+    cursor: pointer;
+    transition: 500ms;
+}
